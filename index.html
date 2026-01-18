@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smily Cafe</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Cambria, Georgia, serif;
+            background-color: burlywood;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h1, h2 {
+            margin: 10px 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        .location {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 16px;
+        }
+
+        .menu-section {
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+            font-size: 15px;
+        }
+
+        td {
+            text-align: right;
+        }
+
+        button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        /* Mobile improvement */
+        @media (max-width: 480px) {
+            th, td {
+                font-size: 14px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <img src="new-image.webp" alt="Cafe Image">
+
+    <h1>Smily Home</h1>
+
+    <div class="location">
+        <img src="location.png" width="24">
+        <span>Near by D Mart, 45801</span>
+    </div>
+
+    <hr>
+
+    <!-- CHAI -->
+    <div class="menu-section">
+        <h2>☕ CHAI</h2>
+        <table>
+            <tr><th>Chocolate Chai</th><td><button>10/-</button></td></tr>
+            <tr><th>Rose Chai</th><td><button>15/-</button></td></tr>
+            <tr><th>Adarak Chai</th><td><button>15/-</button></td></tr>
+            <tr><th>Ilaichi Chai</th><td><button>20/-</button></td></tr>
+            <tr><th>Masala Chai</th><td><button>20/-</button></td></tr>
+        </table>
+    </div>
+
+    <!-- COLD COFFEE -->
+    <div class="menu-section">
+        <h2>🧊 Cold Coffee</h2>
+        <table>
+            <tr><th>Plain Cold Coffee</th><td><button>100/-</button></td></tr>
+            <tr><th>Choco Cold Coffee</th><td><button>120/-</button></td></tr>
+            <tr><th>Strong Cold Coffee</th><td><button>150/-</button></td></tr>
+            <tr><th>With Ice Cream</th><td><button>180/-</button></td></tr>
+            <tr><th>Hazelnut Cold Coffee</th><td><button>150/-</button></td></tr>
+        </table>
+    </div>
+
+    <!-- BURGER -->
+    <div class="menu-section">
+        <h2>🍔 Burger</h2>
+        <table>
+            <tr><th>Veg Burger</th><td><button>50/-</button></td></tr>
+            <tr><th>Veg Cheese Burger</th><td><button>70/-</button></td></tr>
+            <tr><th>Paneer Burger</th><td><button>80/-</button></td></tr>
+            <tr><th>Cheese + Paneer</th><td><button>100/-</button></td></tr>
+            <tr><th>Smily Special</th><td><button>120/-</button></td></tr>
+        </table>
+    </div>
+
+</div>
+
+</body>
+</html>
